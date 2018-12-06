@@ -1,4 +1,49 @@
 extends ./layouts/common.pug
 
+block header-bottom
+    .header-bottom
+        .header-bottom-right
+            .tittle Rubaiyat
+            .content
+                p
+                    br
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;Rubaiyat is a name of poetic significance originally chosen by Bulova in 1917 &mdash; to introduce the first female-focused watch designs to the world. 
+                    br
+                    | &#x9;&#x9;&#x9;&#x9;&#x9;Today, the collection celebrates a century past, fusing modern design with longstanding roots in the art of true craftsmanship and empowered femininity.
+            .view-detail
+                a(href='#') Explore
+        .header-bottom-left
+            img(src='/image/b.jpg')
+
 block content
-    h1 son
+    .row
+        .col-sm-6.col-md-4.col-lg-6
+            .card.mb-3
+                img.card-img-top(src='/image/b.jpg', alt='Card image cap')
+                .card-body
+                    h5.card-title aaa
+                    p.card-text aaa
+                    a.btn.btn-primary(href="#") Add to card
+        .col-sm-6.col-md-4.col-lg-6
+            .card.mb-3
+                img.card-img-top(src='/image/b.jpg', alt='Card image cap')
+                .card-body
+                    h5.card-title aaa
+                    p.card-text aaa
+                    a.btn.btn-primary(href="#") Add to card         
+        .col-sm-6.col-md-4.col-lg-6
+            .card.mb-3
+                img.card-img-top(src='/image/b.jpg', alt='Card image cap')
+                .card-body
+                    h5.card-title aaa
+                    p.card-text aaa
+                    a.btn.btn-primary(href="#") Add to card
+        .col-sm-6.col-md-4.col-lg-6
+            .card.mb-3
+                img.card-img-top(src='/image/b.jpg', alt='Card image cap')
+                .card-body
+                    h5.card-title aaa
+                    p.card-text aaa
+                    a.btn.btn-primary(href="#") Add to card    
+                    
+                        
