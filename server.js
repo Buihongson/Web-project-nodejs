@@ -14,8 +14,8 @@ var LocalStrategy = require('passport-local').Strategy;
 var routes = require('./routes/index.route');
 var usersRoute = require('./routes/user.route');
 
-mongoose.connect('mongodb://localhost:27017/longinapp');
-var db = mongoose.connection;
+// mongoose.connect('mongodb://localhost:27017/longinapp');
+// var db = mongoose.connection;
 
 // express init
 var app = express();
